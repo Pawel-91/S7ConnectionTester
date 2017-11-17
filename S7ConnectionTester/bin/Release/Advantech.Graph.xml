@@ -1,0 +1,3734 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Advantech.Graph</name>
+    </assembly>
+    <members>
+        <member name="M:Advantech.Graph.FormNewFolder.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.FormNewFolder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormNewFolder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.FormNewFolder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormNewFolder.PathName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.DelegateUpdateBitmap">
+            <summary>
+            A delegate type for hooking up UpdateBitmap notifications. 
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.DelegateEnableButtons">
+            <summary>
+            A delegate type for hooking up EnableButtons notifications. 
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.DelegateDisableButtons">
+            <summary>
+            A delegate type for hooking up DisableButtons notifications. 
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.DelegateReConnectRemote">
+            <summary>
+            A delegate type for hooking up ReConnectRemote notifications. 
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamRemote">
+            <summary>
+            Summary description for AdamRemote.
+            </summary>
+            <summary>
+            AdamRemote class is the client side control for Advantech DiagAnywhere technology.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.#ctor">
+            <summary>
+            AdamRemote
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnSizeChanged(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseMove event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseDown event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseUp event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.Start(System.String)">
+            <summary>
+            Start the DiagAnywhere control.
+            </summary>
+            <param name="szPassword">The remote device Administrator password.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.Stop">
+            <summary>
+            Stop the DiagAnywhere control.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.CaptureScreen">
+            <summary>
+            Capture screen image.
+            </summary>
+            <returns>The screen image. If the control has never connect to any device return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>
+            
+            </summary>
+            <param name="keyData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnLostFocus(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.OnGotFocus(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.RunFileTransfer">
+            <summary>
+            Pop up the file transfer dialog
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.CaptureSnapshot">
+            <summary>
+            Run the snapshot capture
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamRemote.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRemote.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.UpdateFrameInterval">
+            <summary> 
+            Get/set update frame interval. The value must be between 1 and 20.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.Title">
+            <summary>
+            Get/set text of the title.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.RemoteIP">
+            <summary>
+            Get/set the IP addres of the remote device.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.CanControl">
+            <summary>
+            Get/set whether the user can control the remote device.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.SendMouseMove">
+            <summary>
+            Get/set whether the mouse movement will be sent to the remote device.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.DrawHighQuality">
+            <summary>
+            Get/set whether the drawing is high quality.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.ConnectionTimeout">
+            <summary>
+            Get/set the connection timeout in milliseconds. The value must be between 100 and 30000.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.ConnectionAlive">
+            <summary>
+            Get connection state. If connection is alive, return true, otherwise return false.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.ControlPort">
+            <summary>
+            Get/Set the TCP port for control communication.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRemote.FtpPort">
+            <summary>
+            Get/Set the TCP port for file transfer.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shape">
+            <summary>
+            The shape of the control.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shape.Rectangle">
+            <summary>
+            Rectangle shape.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shape.Triangle">
+            <summary>
+            Triangle shape.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamIndicator">
+            <summary>
+            The AdamIndicator class.
+            </summary>
+            <summary>
+            AdamIndicator class is the progress like indicator.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamIndicator.#ctor">
+            <summary>
+            The AdamIndicator constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamIndicator.OnResize(System.EventArgs)">
+            <summary>
+            OnResize event handler.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamIndicator.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="F:Advantech.Graph.AdamIndicator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamIndicator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamIndicator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.IndicatorOnColor">
+            <summary>
+            Get/set the color of the indicator bar when it is On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.IndicatorOffColor">
+            <summary>
+            Get/set the color of the indicator when it is Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.Maximum">
+            <summary>
+            Get/set the maximum value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.Minimum">
+            <summary>
+            Get/set the minimum value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.Value">
+            <summary>
+            Get/set the value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.LineWidth">
+            <summary>
+            Get/set the width of the indicator lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.Orientation">
+            <summary>
+            Get/set the orientation of the control.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.Shape">
+            <summary>
+            Get/set the shape of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamIndicator.BackColor">
+            <summary>
+            Get/set the BackColor of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamBatteryIndicator">
+            <summary>
+            Summary description for AdamBatteryIndicator.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamBatteryIndicator.#ctor">
+            <summary>
+            The AdamBatteryIndicator constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamBatteryIndicator.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="F:Advantech.Graph.AdamBatteryIndicator.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamBatteryIndicator.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamBatteryIndicator.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamBatteryIndicator.IndicatorOnColor">
+            <summary>
+            Get/set the color of the indicator bar when it is On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamBatteryIndicator.IndicatorOffColor">
+            <summary>
+            Get/set the color of the indicator when it is Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamBatteryIndicator.Maximum">
+            <summary>
+            Get/set the maximum value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamBatteryIndicator.Minimum">
+            <summary>
+            Get/set the minimum value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamBatteryIndicator.Value">
+            <summary>
+            Get/set the value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamBatteryIndicator.BackColor">
+            <summary>
+            Get/set the BackColor of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamSignalIndicator">
+            <summary>
+            Summary description for AdamSignalIndicator.
+            </summary>
+            <summary>
+            AdamIndicator class is the progress like indicator.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSignalIndicator.#ctor">
+            <summary> 
+            The AdamSignalIndicator constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSignalIndicator.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="F:Advantech.Graph.AdamSignalIndicator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSignalIndicator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamSignalIndicator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.IndicatorOnColor">
+            <summary>
+            Get/set the color of the indicator bar when it is On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.IndicatorOffColor">
+            <summary>
+            Get/set the color of the indicator when it is Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.Maximum">
+            <summary>
+            Get/set the maximum value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.Minimum">
+            <summary>
+            Get/set the minimum value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.Value">
+            <summary>
+            Get/set the value of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.Shape">
+            <summary>
+            Get/set the shape of the indicator.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSignalIndicator.BackColor">
+            <summary>
+            Get/set the BackColor of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamMeter">
+            <summary>
+            The AdamMeter class.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamMeter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamMeter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamMeter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamMeter.#ctor">
+            <summary>
+            The AdamMeter constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamMeter.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamMeter.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.BackLightColor">
+            <summary>
+            Get/set the back light color of the meter.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.BackDarkColor">
+            <summary>
+            Get/set the back dark color of the meter.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.TickColor">
+            <summary>
+            Get/set the color of the grid lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.CenterColor">
+            <summary>
+            Get/set the color of center.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.CenterWidth">
+            <summary>
+            Get/set the width of center.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.NeedleColor">
+            <summary>
+            Get/set the color of needle.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.Maximum">
+            <summary>
+            Get/set the maximum value of the grid.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.Minimum">
+            <summary>
+            Get/set the minimum value of the grid.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.Value">
+            <summary>
+            Get/set the value of the needle.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.MajorTickCount">
+            <summary>
+            Get/set the total of the major tick.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.MinorTickCount">
+            <summary>
+            Get/set the total of the minor tick.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.Unit">
+            <summary>
+            Get/set the unit string.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayShown">
+            <summary>
+            Get/set whether the LED display object should be shown
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayAutoCenter">
+            <summary>
+            Get/set whether the LED display is autocentered.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayBackLightColor">
+            <summary>
+            Get/set the LED display back light color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayBackDarkColor">
+            <summary>
+            Get/set the LED display back dark color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayDigitalCount">
+            <summary>
+            Get/set the LED display back dark color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayLedOffColor">
+            <summary>
+            Get/set the LED display off color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayLedOnColor">
+            <summary>
+            Get/set the LED display on color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayLineWidth">
+            <summary>
+            Get/set the LED display digit line width.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplaySize">
+            <summary>
+            Get/set the LED display digit size.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.DisplayDecimalPoint">
+            <summary>
+            Get/set the LED display deciaml point.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamMeter.BackColor">
+            <summary>
+            Get/set the background color of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.LightStyle">
+            <summary>
+            The style of the control.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.LightStyle.Round">
+            <summary>
+            Round style.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.LightStyle.Rectangle">
+            <summary>
+            Rectangle style.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.LightStyle.TriangleUp">
+            <summary>
+            Triangle style points up.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.LightStyle.TriangleDown">
+            <summary>
+            Triangle style points down.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.LightStyle.TriangleLeft">
+            <summary>
+            Triangle style points left.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.LightStyle.TriangleRight">
+            <summary>
+            Triangle style points right.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamLight">
+            <summary>
+            The AdamLight class.
+            </summary>
+            <summary>
+            AdamLight class is the light control with different shape.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.#ctor">
+            <summary>
+            The AdamLight constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.StartBlinking(System.Int32)">
+            <summary>
+            Start light autoblinking
+            </summary>
+            <param name="i_iInterval">The blinking interval. The value must be greater than or equal 50. Otherwise, the interval 50 ms is used.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.StopBlinking(System.Boolean)">
+            <summary>
+            Stop light autoblinking.
+            </summary>
+            <param name="i_bValue">The light status after the blinking stoped.</param>
+        </member>
+        <member name="F:Advantech.Graph.AdamLight.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamLight.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamLight.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamLight.LightOnColor">
+            <summary>
+            Get/set the color of the light when it is On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamLight.LightOffColor">
+            <summary>
+            Get/set the color of the light when it is Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamLight.Value">
+            <summary>
+            Get/set the light to be On or Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamLight.Style">
+            <summary>
+            Get/set the light style.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamLight.BackColor">
+            <summary>
+            Get/set the BackColor of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamTrend">
+            <summary>
+            AdamTrend class is the performance graph based control.
+            </summary>
+            <summary>
+            The AdamTrend class
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamTrend.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamTrend.m_OutX">
+            <summary>
+            The last column outside the panel
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.#ctor">
+            <summary>
+            The AdamTrend constructor
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.DrawGridLines(System.Drawing.Graphics)">
+            <summary>
+            Draw the grid lines.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.DrawHorLab(System.Drawing.Graphics,System.Boolean)">
+            <summary>
+            Draw horizontal label
+            </summary>
+            <param name="panelGraph"></param>
+            <param name="bDrawLabLine"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.DrawDataLines(System.Drawing.Graphics,System.Single[])">
+            <summary>
+            Prepare the image before drawing.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.UpdateGraph(System.Single[])">
+            <summary>
+            Force to update the graph.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.ClearGraph">
+            <summary>
+            Force to clear the graph. 
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.UpdateGraphSequence(System.Int32,System.Single[][],System.Boolean[])">
+            <summary>
+            Force to update the sequence graph.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.DrawDataLinesSequence(System.Drawing.Graphics,System.Single[][],System.Int32,System.Boolean[])">
+            <summary>
+            Prepare the sequence image before drawing.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamTrend.CopyGraphSequenceToGraph">
+            <summary>
+            Force to copy the sequence graph to graph (for sequence graph connection).
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.GridBackColor">
+            <summary>
+            Get/set the back color of the grid lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.GridColor">
+            <summary>
+            Get/set the color of the grid lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.DrawType">
+            <summary>
+            Get/set the draw type of the lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen0Color">
+            <summary>
+            Get/set the color of the data line[0].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen1Color">
+            <summary>
+            Get/set the color of the data line[1].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen2Color">
+            <summary>
+            Get/set the color of the data line[2].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen3Color">
+            <summary>
+            Get/set the color of the data line[3].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen4Color">
+            <summary>
+            Get/set the color of the data line[4].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen5Color">
+            <summary>
+            Get/set the color of the data line[5].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen6Color">
+            <summary>
+            Get/set the color of the data line[6].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.Pen7Color">
+            <summary>
+            Get/set the color of the data line[7].
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.GridLineSize">
+            <summary>
+            Get/set the distance between two grid lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.MaximumY">
+            <summary>
+            Get/set the maximum value of the Y-axis.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.MinimumY">
+            <summary>
+            Get/set the minimum value of the Y-axis.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.StepSize">
+            <summary>
+            Get/set the X-axis movement steps.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.HorLabOrientation">
+            <summary>
+            Get/set the horizontal label layout
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.VerLabOrientation">
+            <summary>
+            Get/set the vertical label layout
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.VerLabUnit">
+            <summary>
+            Get/set the vertical label unit string.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.HorLabType">
+            <summary>
+            Get/set the horizontal label type.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamTrend.BackColor">
+            <summary>
+            Get/set the background color of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamNumLed">
+            <summary>
+            The AdamNumLed class.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamNumLed.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamNumLed.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamNumLed.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamNumLed.m_digitMatric">
+            <summary>
+                 0
+               * * *
+             1 * 3 * 2
+               * * *
+             4 *   * 5
+               * * *
+                 6
+            </summary>
+                                          0  1  2  3  4  5  6
+        </member>
+        <member name="M:Advantech.Graph.AdamNumLed.#ctor">
+            <summary>
+            The AdamNumLed constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamNumLed.DrawDot(System.Drawing.Graphics,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            
+            </summary>
+            <param name="gp"></param>
+            <param name="index">0: draw blank, 1: draw colon, 2: draw dot</param>
+            <param name="x1"></param>
+            <param name="x2"></param>
+            <param name="y1"></param>
+            <param name="y2"></param>
+            <param name="y3"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamNumLed.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamNumLed.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.LedOnColor">
+            <summary>
+            Get/set the color of the LED when it is On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.LedOffColor">
+            <summary>
+            Get/set the color of the LED when it is Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.DigitCount">
+            <summary>
+            Get/set the number of the LED digit. The number is between 1 and 10.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.Value">
+            <summary>
+            Get/set the value string to be shown. Only number, dot and colon will be displayed.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.LineWidth">
+            <summary>
+            Get/set the size of the LED line. The size is between 1 and 10.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.BackLightColor">
+            <summary>
+            Get/set the light back color of the control.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.BackDarkColor">
+            <summary>
+            Get/set the dark back color of the control.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamNumLed.BackColor">
+            <summary>
+            Get/set the background color of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamKnob">
+            <summary>
+            The AdamKnob Class.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamKnob.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnValueChanged(System.Object)">
+            <summary>
+            Invoke the ValueChanged event; called  when value is changed
+            </summary>
+            <param name="sender"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.#ctor">
+            <summary>
+            The AdamKnob constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.IsPointIn(System.Drawing.PointF)">
+            <summary>
+            Check whether the point is in the knob
+            </summary>
+            <param name="p">Point to be Checked</param>
+            <returns>true is Point is in the knob, else false</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.GetValueFromPosition(System.Drawing.PointF)">
+            <summary>
+            converts geomatrical position in to value..
+            </summary>
+            <param name="p">Point that is to be converted</param>
+            <returns>Value derived from position</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>
+            Determines whether the specified key is a regular input key or a special key that requires preprocessing.
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseDown event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseUp event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the MouseMove event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamKnob.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Fires when the user presses a key.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:Advantech.Graph.AdamKnob.ValueChanged">
+            <summary>
+            An event that clients can use to be notified whenever the Value is Changed. 
+            </summary>                     
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.BackLightColor">
+            <summary>
+            Get/set the back light color of the meter.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.BackDarkColor">
+            <summary>
+            Get/set the back dark color of the meter.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.TickColor">
+            <summary>
+            Get/set the color of the grid lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.NeedleColor">
+            <summary>
+            Get/set the color of needle.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.Maximum">
+            <summary>
+            Get/set the maximum value of the grid.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.Minimum">
+            <summary>
+            Get/set the minimum value of the grid.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.Value">
+            <summary>
+            Get/set the value of the needle.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.MajorTickCount">
+            <summary>
+            Get/set the total of the major tick.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.MinorTickCount">
+            <summary>
+            Get/set the total of the minor tick.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.Unit">
+            <summary>
+            Get/set the unit string.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayShown">
+            <summary>
+            Get/set whether the LED display object should be shown
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayAutoCenter">
+            <summary>
+            Get/set whether the LED display is autocentered.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayBackLightColor">
+            <summary>
+            Get/set the LED display back light color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayBackDarkColor">
+            <summary>
+            Get/set the LED display back dark color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayDigitalCount">
+            <summary>
+            Get/set the LED display back dark color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayLedOffColor">
+            <summary>
+            Get/set the LED display off color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayLedOnColor">
+            <summary>
+            Get/set the LED display on color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayLineWidth">
+            <summary>
+            Get/set the LED display digit line width.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplaySize">
+            <summary>
+            Get/set the LED display digit size.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.DisplayDecimalPoint">
+            <summary>
+            Get/set the LED display deciaml point.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamKnob.BackColor">
+            <summary>
+            Get/set the background color of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamComComponent">
+            <summary>
+            AdamComComponent class. The class is based on AdamCom class. The class is very useful for
+            using with Advantech Adam serial devices.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            AdamComComponent class. The class is based on AdamCom class. The class is very useful for
+            using with Advantech Adam serial devices.
+            </summary>
+            <param name="container">Container</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.#ctor">
+            <summary>
+            AdamComComponent class. The class is based on AdamCom class. The class is very useful for
+            using with Advantech Adam serial devices.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.OpenComPort">
+            <summary>
+            Open the COM port and get the COM port setting from system
+            </summary>
+            <returns>True if port opened successfully.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.CloseComPort">
+            <summary>
+            Close the COM port.
+            </summary>
+            <returns>True if executed successfully.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.Configuration(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 Configuration object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then AdamConfig object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.DigitalInput(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 DigitalInput object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then DigitalInput object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.DigitalOutput(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 DigitalOutput object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then DigitalOutput object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.AnalogInput(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 AnalogInput object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then AnalogInput object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.AnalogOutput(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 AnalogOutput object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then AnalogOutput object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.Modbus(System.Int32)">
+            <summary>
+            ADAM-4000 Modbus object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then Modbus object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.Alarm(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 Alarm object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then Alarm object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.Counter(System.Int32)">
+            <summary>
+            ADAM-4000 ADAM-5000 Counter object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then Counter object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.Pid(System.Int32)">
+            <summary>
+            ADAM-4000 PID object
+            </summary>
+            <param name="i_iAddr">The module address which is ranged from 0 to 255</param>
+            <returns>If COM port was opended, then PID object returned. Otherwise, return null.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.AdamTransaction(System.String,System.String@)">
+            <summary>
+            Send and receive ASCII command for ADAM modules 
+            </summary>
+            <param name="i_szSend">The command string to send</param>
+            <param name="o_szRecv">The responsed string received</param>
+            <returns>True if the transaction success.</returns>
+        </member>
+        <member name="F:Advantech.Graph.AdamComComponent.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamComComponent.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Port">
+            <summary>
+            Get/set the COM port number of the component.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Timeout">
+            <summary>
+            Get/set the timeout value of the COM port.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Baudrate">
+            <summary>
+            Get/set the baudrate of the COM port.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Databits">
+            <summary>
+            Get/set the data bits of the COM port.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Parity">
+            <summary>
+            Get/set the parity of the COM port.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Stopbits">
+            <summary>
+            Get/set the stop bits of the COM port.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.Checksum">
+            <summary>
+            Get/set the checksum enabled status for Advantech ASCII protocol.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.LastError">
+            <summary>
+            The last error code when function return false.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.AdamComObject">
+            <summary>
+            The AdamCom object. User must check this value is not null before using it.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamComComponent.IsOpen">
+            <summary>
+            The COM port open status.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamRuler">
+            <summary>
+            The AdamRuler class.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamRuler.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.#ctor">
+            <summary>
+            The AdamRuler constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            The OnPaint event.
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.DrawGridLines(System.Drawing.Graphics)">
+            <summary>
+            Draw the grid lines.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.getDarkColor(System.Drawing.Color,System.Byte)">
+            <summary>
+            Get dark color of knob.
+            </summary>
+            <param name="c"></param>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.getLightColor(System.Drawing.Color,System.Byte)">
+            <summary>
+            Get light color of knob.
+            </summary>
+            <param name="c"></param>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.UpdateGraph">
+            <summary>
+            Force to update the graph.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamRuler.ClearGraph">
+            <summary>
+            Force to clear the graph. 
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.ShowSmallScale">
+            <summary>
+            Shows Small Scale marking.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.ShowLargeScale">
+            <summary>
+            Shows Large Scale marking
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.ShowtickIndex">
+            <summary>
+            Shows tick index marking
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.StartValue">
+            <summary>
+            Current Value of Ruler control
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.RulerColor">
+            <summary>
+            Set color of Ruler control
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.Unit">
+            <summary>
+            Get/set the unit string.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.ForeColor">
+            <summary>
+            Get/set the ForeColor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.Orientation">
+            <summary>
+            Horizontal or vertical layout
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.SurroundColor">
+            <summary>
+            Get/set the color of the surrounded line.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.GridLineSize">
+            <summary>
+            Get/set the distance between two grid lines.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.LinearGradientMode">
+            <summary>
+            LinearGradientMode
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.StepSize">
+            <summary>
+            Get/set the X-axis movement steps.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.DeciamlInterval">
+            <summary>
+            Get/set the deciaml interval size.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamRuler.BackColor">
+            <summary>
+            Get/set the background color of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamExternalPower">
+            <summary>
+            Summary description for AdamExternalPower.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamExternalPower.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamExternalPower.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamExternalPower.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamExternalPower.#ctor">
+            <summary> 
+            The AdamExternalPower constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamExternalPower.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Advantech.Graph.FormTransfer">
+            <summary>
+            Summary description for FormTransfer.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.FormTransfer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormTransfer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.FormTransfer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormTransfer.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormTransfer.CheckFileExist(Advantech.Graph.Shell32.PShellItem@)">
+            <summary>
+            
+            </summary>
+            <param name="srcItem"></param>
+            <returns>0: copy file; 1: skip copy; 2: cancel whole</returns>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.Shell">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.FileList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.ClientSocket">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.SourceTarget">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.SourcePath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.TargetPath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.TotalSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormTransfer.SendToRemote">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamSocketComponent">
+            <summary>
+            AdamSocketComponent is the component for AdamSocket class.
+            </summary>
+            <summary>
+            Summary description for AdamSocketComponent.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamSocketComponent.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            AdamSocketComponent class. The class is based on AdamSocket class. The class is very useful for
+            using with Advantech Adam serial devices.
+            </summary>
+            <param name="container">Container</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.#ctor">
+            <summary>
+            AdamSocketComponent class. The class is based on AdamSocket class. The class is very useful for
+            using with Advantech Adam serial devices.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Connect">
+            <summary>
+            Connect the remote module.
+            </summary>
+            <returns>True, if successed, otherwise false.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Disconnect">
+            <summary>
+            Disconnect the remote module.
+            </summary>
+            <returns>True, if successed, otherwise false.</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Configuration">
+            <summary>
+            ADAM-5000TCP ADAM-6000 Configuration object
+            </summary>
+            <returns>The Configuration object</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.DigitalInput">
+            <summary>
+            ADAM-5000TCP ADAM-6000 DigitalInput object
+            </summary>
+            <returns>The DigitalInput object</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.DigitalOutput">
+            <summary>
+            ADAM-5000TCP ADAM-6000 DigitalOutput object
+            </summary>
+            <returns>The DigitalOutput object</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.AnalogInput">
+            <summary>
+            ADAM-5000TCP ADAM-6000 AnalogInput object
+            </summary>
+            <returns>The AnalogInput object</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.AnalogOutput">
+            <summary>
+            ADAM-5000TCP ADAM-6000 AnalogOutput object
+            </summary>
+            <returns>The AnalogOutput object</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Modbus">
+            <summary>
+            ADAM-5000TCP ADAM-6000 Modbus object
+            </summary>
+            <returns>The Modbus object</returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Alarm">
+            <summary>
+            ADAM-5000TCP ADAM-6000 Alarm object
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Counter">
+            <summary>
+            ADAM-5000TCP ADAM-6000 Counter object
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.Pid">
+            <summary>
+            ADAM-6000 PID object
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.AdamSocketComponent.AdamTransaction(System.String,System.String@)">
+            <summary>
+            Send and receive ASCII command for ADAM modules 
+            </summary>
+            <param name="i_szSend">The command string to send</param>
+            <param name="o_szRecv">The responsed string received</param>
+            <returns>True if the transaction success.</returns>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.IPAddress">
+            <summary>
+            Get/set the IP address which the component connects to.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.AdamSeriesType">
+            <summary>
+            Get/set the Adam series type of the connecting module.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.AdamProtocolType">
+            <summary>
+            Get/set the protocol type which the component uses.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.ConnectTimeout">
+            <summary>
+            Get/set the connecting timeout.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.SendTimeout">
+            <summary>
+            Get/set the sending timeout.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.RecvTimeout">
+            <summary>
+            Get/set the receiving timeout.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.LastError">
+            <summary>
+            The last error code when function return false.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.AdamSocketObject">
+            <summary>
+            The AdamSocket object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSocketComponent.Connected">
+            <summary>
+            The connection status.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32">
+            <summary>
+            Summary description for 
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.Initialize(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="formHandle"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.Terminate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IDList(Advantech.Graph.Shell32.CSIDL)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetImageList(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="handle"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetListViewItems(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@,System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+            <param name="pidl"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetListViewSort(System.Windows.Forms.ListView@,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="column"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetListViewItems(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+            <param name="selected"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetListViewItems(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+            <param name="szName"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetListViewItemsByCombo(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+            <param name="selected"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetListViewMoveUp(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetPopMenu(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetComboItem(System.Windows.Forms.ComboBox@,System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="cbx"></param>
+            <param name="pidl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IsLocalTop(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="pidl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetRemoteComboItem(System.Windows.Forms.ComboBox@,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="cbx"></param>
+            <param name="path"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetShellItem(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetShellItemsTotal">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetRemoteShellItem(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetRemoteShellItemsTotal">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IsFolder(Advantech.Graph.Shell32.IShellFolder,System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="ShellFolder"></param>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ClearIDList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ClearRemoteIDList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.DisposePIDL(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.NextPIDL(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="IDList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetPIDLSize(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="IDList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.StripLastID(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="IDList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.CreatePIDL(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.CopyPIDL(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ConcatPIDLs(System.IntPtr,System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="pIDLParent"></param>
+            <param name="pIDLChild"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetShellImage(System.IntPtr,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="PIDL"></param>
+            <param name="bLarge"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetRemoteShellImage(System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="bLarge"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ValidFileTime(System.Runtime.InteropServices.ComTypes.FILETIME)">
+            <summary>
+            
+            </summary>
+            <param name="ftime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.GetDisplayName(Advantech.Graph.Shell32.IShellFolder,System.IntPtr,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="ShellFolder"></param>
+            <param name="PIDL"></param>
+            <param name="bForParsing"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ClearRemoteList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.AddRemoteItems(System.String,System.Boolean,System.UInt32,System.String,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="isFolder"></param>
+            <param name="size"></param>
+            <param name="modeDate"></param>
+            <param name="attr"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.RemoveRemoteItems(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetRemoteListViewItems(System.Windows.Forms.ListView@,System.Windows.Forms.ComboBox@,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="cbx"></param>
+            <param name="path"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.SetRemoteListViewSort(System.Windows.Forms.ListView@,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="listView"></param>
+            <param name="column"></param>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.LastLocalPidl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.LastRemotePath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.TotalSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.TotalObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.DeskTopFolder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.RemoteLastComboSelect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.myCompareClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.myCompareClass.#ctor(Advantech.Graph.Shell32.IShellFolder,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="folder"></param>
+            <param name="iParam"></param>
+            <param name="iOrder"></param>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SHGDFIL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGDFIL.SHGDFIL_FINDDATA">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGDFIL.SHGDFIL_NETRESOURCE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGDFIL.SHGDFIL_DESCRIPTIONID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SHGNO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGNO.SHGDN_NORMAL">
+            <summary>
+            Default (display purpose)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGNO.SHGDN_INFOLDER">
+            <summary>
+            Displayed under a folder (relative)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGNO.SHGDN_FOREDITING">
+            <summary>
+            For in-place editing
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGNO.SHGDN_FORADDRESSBAR">
+            <summary>
+            UI friendly parsing name (remove ugly stuff)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGNO.SHGDN_FORPARSING">
+            <summary>
+            Parsing name for ParseDisplayName()
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SHCONTF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_FOLDERS">
+            <summary>
+            Only want folders enumerated (SFGAO_FOLDER)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_NONFOLDERS">
+            <summary>
+            Include non folders
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_INCLUDEHIDDEN">
+            <summary>
+            Show items normally hidden
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_INIT_ON_FIRST_NEXT">
+            <summary>
+            Allow EnumObject() to return before validating enum
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_NETPRINTERSRCH">
+            <summary>
+            Hint that client is looking for printers
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_SHAREABLE">
+            <summary>
+            Hint that client is looking sharable resources (remote shares)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHCONTF.SHCONTF_STORAGE">
+            <summary>
+            Include all items with accessible storage and their ancestors
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SFGAOF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CANCOPY">
+            <summary>
+            Objects can be copied  (DROPEFFECT_COPY)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CANMOVE">
+            <summary>
+            Objects can be moved   (DROPEFFECT_MOVE)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CANLINK">
+            <summary>
+            Objects can be linked  (DROPEFFECT_LINK)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_STORAGE">
+            <summary>
+            Supports BindToObject(IID_IStorage)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CANRENAME">
+            <summary>
+            Objects can be renamed
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CANDELETE">
+            <summary>
+            Objects can be deleted
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_HASPROPSHEET">
+            <summary>
+            Objects have property sheets
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_DROPTARGET">
+            <summary>
+            Objects are drop target
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CAPABILITYMASK">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_ENCRYPTED">
+            <summary>
+            Object is encrypted (use alt color)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_ISSLOW">
+            <summary>
+            'Slow' object
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_GHOSTED">
+            <summary>
+            Ghosted icon
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_LINK">
+            <summary>
+            Shortcut (link)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_SHARE">
+            <summary>
+            Shared
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_READONLY">
+            <summary>
+            Read-only
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_HIDDEN">
+            <summary>
+            Hidden object
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_DISPLAYATTRMASK">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_FILESYSANCESTOR">
+            <summary>
+            May contain children with SFGAO_FILESYSTEM
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_FOLDER">
+            <summary>
+             Support BindToObject(IID_IShellFolder)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_FILESYSTEM">
+            <summary>
+            Is a win32 file system object (file/folder/root)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_HASSUBFOLDER">
+            <summary>
+            May contain children with SFGAO_FOLDER
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CONTENTSMASK">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_VALIDATE">
+            <summary>
+            Invalidate cached information
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_REMOVABLE">
+            <summary>
+            Is this removeable media?
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_COMPRESSED">
+            <summary>
+            Object is compressed (use alt color)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_BROWSABLE">
+            <summary>
+            Supports IShellFolder, but only implements CreateViewObject() (non-folder view)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_NONENUMERATED">
+            <summary>
+            Is a non-enumerated object
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_NEWCONTENT">
+            <summary>
+            Should show bold in explorer tree
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_CANMONIKER">
+            <summary>
+            Defunct
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_HASSTORAGE">
+            <summary>
+            Defunct
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_STREAM">
+            <summary>
+            Supports BindToObject(IID_IStream)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_STORAGEANCESTOR">
+            <summary>
+            May contain children with SFGAO_STORAGE or SFGAO_STREAM
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SFGAOF.SFGAO_STORAGECAPMASK">
+            <summary>
+            For determining storage capabilities, ie for open/save semantics
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.STRRET_TYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.STRRET_TYPE.STRRET_WSTR">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.STRRET_TYPE.STRRET_OFFSET">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.STRRET_TYPE.STRRET_CSTR">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SHGFI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_ICON">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_DISPLAYNAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_TYPENAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_ATTRIBUTES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_ICONLOCATION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_EXETYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_SYSICONINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_LINKOVERLAY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_SELECTED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_ATTR_SPECIFIED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_LARGEICON">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_SMALLICON">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_OPENICON">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_SHELLICONSIZE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_PIDL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_USEFILEATTRIBUTES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_ADDOVERLAYS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHGFI.SHGFI_OVERLAYINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.CSIDL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CSIDL.CSIDL_DESKTOP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CSIDL.CSIDL_DESKTOPDIRECTORY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CSIDL.CSIDL_DRIVES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CSIDL.CSIDL_WINDOWS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.CMF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_NORMAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_DEFAULTONLY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_VERBSONLY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_EXPLORE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_NOVERBS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_CANRENAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_NODEFAULT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_INCLUDESTATIC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMF.CMF_RESERVED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.TPM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.TPM.TPM_LEFTBUTTON">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.TPM.TPM_LEFTALIGN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.TPM.TPM_RIGHTBUTTON">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.TPM.TPM_RETURNCMD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.STRRET">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.STRRET.uType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.STRRET.cStr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SHFILEINFO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHFILEINFO.hIcon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHFILEINFO.iIcon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHFILEINFO.dwAttributes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHFILEINFO.szDisplayName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SHFILEINFO.szTypeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.WIN32_FIND_DATA">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.dwFileAttributes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.ftCreationTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.ftLastAccessTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.ftLastWriteTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.nFileSizeHigh">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.nFileSizeLow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.dwReserved0">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.dwReserved1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.cFileName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.WIN32_FIND_DATA.cAlternateFileName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.PShellItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.FullID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.Empty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.IsFolder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.ImageIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.Size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.ByteSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.Attributes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.DisplayName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.TypeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.PShellItem.ModDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.ShellItemObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ShellItemObject.#ctor(System.IntPtr,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="fullID"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.ShellItemObject.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.ShellItemObject.FullID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Shell32.ShellItemObject.DisplayName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.ITEMIDLIST">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.ITEMIDLIST.cb">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.SYSTEMTIME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wYear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wMonth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wDayOfWeek">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wDay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wHour">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wMinute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wSecond">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.SYSTEMTIME.wMilliseconds">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.cbSize">
+            <summary>
+            sizeof(CMINVOKECOMMANDINFO)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.fMask">
+            <summary>
+             any combination of CMIC_MASK_*
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.hwnd">
+            <summary>
+            might be NULL (indicating no owner window)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.lpVerb">
+            <summary>
+            either a string or MAKEINTRESOURCE(idOffset)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.lpParameters">
+            <summary>
+            might be NULL (indicating no parameter)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.lpDirectory">
+            <summary>
+            might be NULL (indicating no specific directory)
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.nShow">
+            <summary>
+            one of SW_ values for ShowWindow() API
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.dwHotKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.CMINVOKECOMMANDINFO.hIcon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.APOINT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.APOINT.x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.Shell32.APOINT.y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.IShellFolder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.ParseDisplayName(System.IntPtr,System.IntPtr,System.String,System.UInt32@,System.IntPtr@,System.UInt32@)">
+            <summary>
+            Translates a file object's or folder's display name into an item identifier list.
+            </summary>
+            <param name="hwnd">Optional window handle</param>
+            <param name="pbc">Optional bind context that controls the parsing operation. This parameter is normally set to NULL. </param>
+            <param name="pszDisplayName">Null-terminated UNICODE string with the display name.</param>
+            <param name="pchEaten">Pointer to a ULONG value that receives the number of characters of the display name that was parsed.</param>
+            <param name="ppidl">Pointer to an ITEMIDLIST pointer that receives the item identifier list for the object.</param>
+            <param name="pdwAttributes">Optional parameter that can be used to query for file attributes. This can be values from the SFGAO enum</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.EnumObjects(System.IntPtr,Advantech.Graph.Shell32.SHCONTF,Advantech.Graph.Shell32.IEnumIDList@)">
+            <summary>
+            Allows a client to determine the contents of a folder by creating an item identifier enumeration object and returning its IEnumIDList interface.
+            </summary>
+            <param name="hwnd">If user input is required to perform the enumeration, this window handle should be used by the enumeration object as the parent window to take user input.</param>
+            <param name="grfFlags">Flags indicating which items to include in the enumeration. For a list of possible values, see the SHCONTF enum. </param>
+            <param name="ppenumIDList">Address that receives a pointer to the IEnumIDList interface of the enumeration object created by this method. </param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.BindToObject(System.IntPtr,System.IntPtr,System.Guid@,Advantech.Graph.Shell32.IShellFolder@)">
+            <summary>
+            Retrieves an IShellFolder object for a subfolder.
+            </summary>
+            <param name="pidl">Address of an ITEMIDLIST structure (PIDL) that identifies the subfolder.</param>
+            <param name="pbc">Optional address of an IBindCtx interface on a bind context object to be used during this operation.</param>
+            <param name="riid">Identifier of the interface to return. </param>
+            <param name="ppv">Address that receives the interface pointer.</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.BindToStorage(System.IntPtr,System.IntPtr,System.Guid@,System.Object@)">
+            <summary>
+            Requests a pointer to an object's storage interface. 
+            </summary>
+            <param name="pidl">Address of an ITEMIDLIST structure that identifies the subfolder relative to its parent folder. </param>
+            <param name="pbc">Optional address of an IBindCtx interface on a bind context object to be used during this operation.</param>
+            <param name="riid">Interface identifier (IID) of the requested storage interface.</param>
+            <param name="ppv">Address that receives the interface pointer specified by riid.</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.CompareIDs(System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>
+            Determines the relative order of two file objects or folders, given their item identifier lists. 
+            </summary>
+            <param name="lParam">Value that specifies how the comparison should be performed. The lower sixteen bits of lParam define the sorting rule.
+            The upper sixteen bits of lParam are used for flags that modify the sorting rule. values can be from the SHCIDS enum
+            </param>
+            <param name="pidl1">Pointer to the first item's ITEMIDLIST structure.</param>
+            <param name="pidl2">Pointer to the second item's ITEMIDLIST structure.</param>
+            <returns>If this method is successful, the CODE field of the HRESULT contains one of the following values (the code can be retrived using the helper function GetHResultCode)...
+            A negative return value indicates that the first item should precede the second (pidl1 less than pidl2). 
+            A positive return value indicates that the first item should follow the second (pidl1 greater than pidl2).  Zero A return value of zero indicates that the two items are the same (pidl1 = pidl2). 
+            </returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.CreateViewObject(System.IntPtr,System.Guid@,System.Object@)">
+            <summary>
+            Requests an object that can be used to obtain information from or interact with a folder object.
+            </summary>
+            <param name="hwndOwner">Handle to the owner window.</param>
+            <param name="riid">Identifier of the requested interface.</param>
+            <param name="ppv">Address of a pointer to the requested interface. </param>
+            <returns> error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.GetAttributesOf(System.Int32,System.IntPtr@,Advantech.Graph.Shell32.SFGAOF@)">
+            <summary>
+            Retrieves the attributes of one or more file objects or subfolders. 
+            </summary>
+            <param name="cidl">Number of file objects from which to retrieve attributes. </param>
+            <param name="apidl">Address of an array of pointers to ITEMIDLIST structures, each of which uniquely identifies a file object relative to the parent folder.</param>
+            <param name="rgfInOut">Address of a single ULONG value that, on entry, contains the attributes that the caller is requesting. On exit, this value contains the requested attributes that are common to all of the specified objects. this value can be from the SFGAO enum</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.GetUIObjectOf(System.IntPtr,System.Int32,System.IntPtr@,System.Guid@,System.IntPtr,Advantech.Graph.Shell32.IContextMenu@)">
+            <summary>
+            Retrieves an OLE interface that can be used to carry out actions on the specified file objects or folders. 
+            </summary>
+            <param name="hwndOwner">Handle to the owner window that the client should specify if it displays a dialog box or message box.</param>
+            <param name="cidl">Number of file objects or subfolders specified in the apidl parameter. </param>
+            <param name="apidl">Address of an array of pointers to ITEMIDLIST structures, each of which uniquely identifies a file object or subfolder relative to the parent folder.</param>
+            <param name="riid">Identifier of the COM interface object to return.</param>
+            <param name="rgfReserved">Reserved.</param>
+            <param name="ppv">Pointer to the requested interface.</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.GetDisplayNameOf(System.IntPtr,Advantech.Graph.Shell32.SHGNO,Advantech.Graph.Shell32.STRRET@)">
+            <summary>
+            Retrieves the display name for the specified file object or subfolder. 
+            </summary>
+            <param name="pidl">Address of an ITEMIDLIST structure (PIDL) that uniquely identifies the file object or subfolder relative to the parent folder. </param>
+            <param name="uFlags">Flags used to request the type of display name to return. For a list of possible values. </param>
+            <param name="pName">Address of a STRRET structure in which to return the display name.</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IShellFolder.SetNameOf(System.IntPtr,System.IntPtr,System.String,Advantech.Graph.Shell32.SHGNO,System.IntPtr@)">
+            <summary>
+            Sets the display name of a file object or subfolder, changing the item identifier in the process.
+            </summary>
+            <param name="hwnd">Handle to the owner window of any dialog or message boxes that the client displays.</param>
+            <param name="pidl">Pointer to an ITEMIDLIST structure that uniquely identifies the file object or subfolder relative to the parent folder. </param>
+            <param name="pszName">Pointer to a null-terminated string that specifies the new display name. </param>
+            <param name="uFlags">Flags indicating the type of name specified by the lpszName parameter. For a list of possible values, see the description of the SHGNO enum. </param>
+            <param name="ppidlOut">Address of a pointer to an ITEMIDLIST structure which receives the new ITEMIDLIST. </param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.IEnumIDList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IEnumIDList.Next(System.UInt32,System.IntPtr@,System.Int32@)">
+            <summary>
+            Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved. 
+            </summary>
+            <param name="celt">Number of elements in the array pointed to by the rgelt parameter.</param>
+            <param name="rgelt">Address of an array of ITEMIDLIST pointers that receives the item identifiers. The implementation must allocate these item identifiers using the Shell's allocator (retrieved by the SHGetMalloc function). </param>
+            The calling application is responsible for freeing the item identifiers using the Shell's allocator.
+            <param name="pceltFetched">Address of a value that receives a count of the item identifiers actually returned in rgelt. The count can be smaller than the value specified in the celt parameter. This parameter can be NULL only if celt is one. </param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IEnumIDList.Skip(System.UInt32)">
+            <summary>
+            Skips over the specified number of elements in the enumeration sequence. 
+            </summary>
+            <param name="celt">Number of item identifiers to skip.</param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IEnumIDList.Reset">
+            <summary>
+            Returns to the beginning of the enumeration sequence. 
+            </summary>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IEnumIDList.Clone(Advantech.Graph.Shell32.IEnumIDList@)">
+            <summary>
+            Creates a new item enumeration object with the same contents and state as the current one. 
+            </summary>
+            <param name="ppenum">Address of a pointer to the new enumeration object. The calling application must eventually free the new object by calling its Release member function. </param>
+            <returns>error code, if any</returns>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.IMalloc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IMalloc.Alloc(System.UInt32)">
+            <summary>
+            Allocates a block of memory.
+            </summary>
+            <param name="cb">Size, in bytes, of the memory block to be allocated.</param>
+            <returns>The memory block</returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IMalloc.Free(System.IntPtr)">
+            <summary>
+            Frees a previously allocated block of memory.
+            </summary>
+            <param name="pv">Pointer to the memory block to be freed.</param>
+        </member>
+        <member name="T:Advantech.Graph.Shell32.IContextMenu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IContextMenu.QueryContextMenu(System.IntPtr,System.UInt32,System.UInt32,System.UInt32,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="hMenu"></param>
+            <param name="indexMenu"></param>
+            <param name="idCmdFirst"></param>
+            <param name="idCmdLast"></param>
+            <param name="uFlags"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IContextMenu.InvokeCommand(Advantech.Graph.Shell32.CMINVOKECOMMANDINFO@)">
+            <summary>
+            
+            </summary>
+            <param name="pici"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advantech.Graph.Shell32.IContextMenu.GetCommandString(System.UInt32,System.UInt32,System.UInt32,System.IntPtr,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="idcmd"></param>
+            <param name="uflags"></param>
+            <param name="reserved"></param>
+            <param name="commandstring"></param>
+            <param name="cch"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Advantech.Graph.enumOrientation">
+            <summary>
+            Orientation enumeration
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumOrientation.HorizontalRight">
+            <summary>
+            Horizontal right type
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumOrientation.HorizontalLeft">
+            <summary>
+            Horizontal left type
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumOrientation.VerticalDown">
+            <summary>
+            Vertical right type
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumOrientation.VerticalUp">
+            <summary>
+            Vertical left type
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.FormExplorer">
+            <summary>
+            Summary description for Form1.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.FormExplorer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormExplorer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.FormExplorer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormExplorer.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamWSNNode">
+            <summary>
+            Summary description for AdamWSNNode.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.AdamWSNNode.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamWSNNode.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamWSNNode.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamWSNNode.#ctor">
+            <summary> 
+            The AdamWSNNode constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamWSNNode.#ctor(System.String,System.UInt16,System.Boolean,System.Int32,System.Boolean,System.UInt16)">
+            <summary> 
+            The AdamWSNNode constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamWSNNode.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:Advantech.Graph.AdamWSNNode.Adam2kNodeDoubleClick">
+            <summary> 
+            DoubleClick event
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.BrushColor">
+            <summary>
+            Get/set the brush color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.CenterPosition">
+            <summary>
+            Get/set the center position of WSN node.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.ShortAddress">
+            <summary>
+            Get the Short Address of WSN node.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.BorderColor">
+            <summary>
+            Get/set the border color of WSN node.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.EndingColor">
+            <summary>
+            Get/set the Ending color in LinearGradientBrush object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.CreateParams">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.NodeType">
+            <summary>
+            Node type, must be "c", "r" or "e".
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.SignalStrength">
+            <summary>
+            Get signal strength object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.BatteryLevel">
+            <summary>
+            Get Battery level object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamWSNNode.UseExternalPower">
+            <summary>
+            Get/set use external power flag.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamWSNNode.EventHandler_AdamWSNNodeDoubleClick">
+            <summary> 
+            DoubleClick delegate
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdamSwitch">
+            <summary>
+            The AdamSwitch class.
+            </summary>
+            	
+            <summary>
+            AdamSwitch class is the picture based switch control.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSwitch.#ctor">
+            <summary>
+            The AdamSwitch constructor.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSwitch.OnResize(System.EventArgs)">
+            <summary>
+            The OnResize event.
+            </summary>
+            <param name="e">The EventArgs.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamSwitch.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="F:Advantech.Graph.AdamSwitch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdamSwitch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.AdamSwitch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.Registration">
+            <summary>
+            Get/set the registration key.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.Value">
+            <summary> 
+            Get/set the swicth to be On or Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.StretchImage">
+            <summary>
+            Get/set whether the image should be stretched.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.SwitchOnImage">
+            <summary>
+            Get/set the image when the switch On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.SwitchOnString">
+            <summary>
+            Get/set the string when the switch On.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.SwitchOffImage">
+            <summary>
+            Get/set the image when the switch Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.SwitchOffString">
+            <summary>
+            Get/set the string when the switch Off.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdamSwitch.BackColor">
+            <summary>
+            Get/set the background color of the control.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.Crypto">
+            <summary>
+            Encrypts and decrypts data using the crypto APIs.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.Win32Encrypt(System.String,System.Byte[])">
+            <summary>
+            Encrypt data. Use passphrase to generate the encryption key. 
+            Returns a byte array that contains the encrypted data.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.Win32Decrypt(System.String,System.Byte[])">
+            <summary>
+            Decrypt data. Use passphrase to generate the encryption key. 
+            Returns a byte array that contains the decrypted data.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.Win32GetCryptoKey(System.IntPtr,System.String)">
+            <summary>
+            Create a crypto key form a passphrase. This key is 
+            used to encrypt and decrypt data.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.Win32Failed(System.String)">
+            <summary>
+            Throws SystemException with GetLastError information.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.WinCEEncrypt(System.String,System.Byte[])">
+            <summary>
+            Encrypt data. Use passphrase to generate the encryption key. 
+            Returns a byte array that contains the encrypted data.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.WinCEDecrypt(System.String,System.Byte[])">
+            <summary>
+            Decrypt data. Use passphrase to generate the encryption key. 
+            Returns a byte array that contains the decrypted data.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.WinCEGetCryptoKey(System.IntPtr,System.String)">
+            <summary>
+            Create a crypto key form a passphrase. This key is 
+            used to encrypt and decrypt data.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.Crypto.WinCEFailed(System.String)">
+            <summary>
+            Throws SystemException with GetLastError information.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.MiniLZO">
+             <summary>
+             MiniLZO native code
+             * ManagedLZO.MiniLZO
+             * 
+            * Minimalistic reimplementation of minilzo in C#
+             * 
+             * @author Shane Eric Bryldt, Copyright (C) 2006, All Rights Reserved
+             * @note Uses unsafe/fixed pointer contexts internally
+             * @liscence Bound by same liscence as minilzo as below, see file COPYING
+               Based on minilzo.c -- mini subset of the LZO real-time data compression library
+            
+               This file is part of the LZO real-time data compression library.
+               Copyright (C) 2005 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 2004 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 2003 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 2002 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 2001 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 2000 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 1999 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 1998 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 1997 Markus Franz Xaver Johannes Oberhumer
+               Copyright (C) 1996 Markus Franz Xaver Johannes Oberhumer
+               All Rights Reserved.
+            
+               The LZO library is free software; you can redistribute it and/or
+               modify it under the terms of the GNU General Public License,
+               version 2, as published by the Free Software Foundation.
+            
+               The LZO library is distributed in the hope that it will be useful,
+               but WITHOUT ANY WARRANTY; without even the implied warranty of
+               MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+               GNU General Public License for more details.
+            
+               You should have received a copy of the GNU General Public License
+               along with the LZO library; see the file COPYING.
+               If not, write to the Free Software Foundation, Inc.,
+               51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+            
+               Markus F.X.J. Oberhumer
+               markus@oberhumer.com
+               http://www.oberhumer.com/opensource/lzo/
+            
+            * NOTE:
+             *   the full LZO package can be found at
+             *   http://www.oberhumer.com/opensource/lzo/
+             </summary>
+        </member>
+        <member name="M:Advantech.Graph.MiniLZO.Compress(System.Byte[],System.Byte[]@)">
+            <summary>
+            
+            </summary>
+            <param name="src"></param>
+            <param name="dst"></param>
+        </member>
+        <member name="M:Advantech.Graph.MiniLZO.Decompress(System.Byte[],System.Int32,System.Byte[],System.Int32@)">
+            <summary>
+            
+            </summary>
+            <param name="src"></param>
+            <param name="src_len"></param>
+            <param name="dst"></param>
+            <param name="dst_len"></param>
+        </member>
+        <member name="T:Advantech.Graph.FormConReplace">
+            <summary>
+            Summary description for FormConReplace.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormConReplace.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.FormConReplace.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.FormConReplace.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Advantech.Graph.FormConReplace.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormConReplace.FileName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormConReplace.SourceSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormConReplace.SourceDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormConReplace.DestSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormConReplace.DestDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.FormConReplace.ReplaceResult">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.DrawType">
+            <summary>
+            The shape of the control.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.DrawType.Analog">
+            <summary>
+            Analog shape.
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.DrawType.Digital">
+            <summary>
+            Digital shape.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.enumVerLabOrientation">
+            <summary>
+            Vertical label orientation enumeration
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumVerLabOrientation.Non">
+            <summary>
+            Non
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumVerLabOrientation.Left">
+            <summary>
+            Left type
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumVerLabOrientation.Right">
+            <summary>
+            Right type
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.enumHorLabOrientation">
+            <summary>
+            Horizontal label orientation enumeration
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumHorLabOrientation.Non">
+            <summary>
+            Non
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumHorLabOrientation.Up">
+            <summary>
+            Up type
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumHorLabOrientation.Bottom">
+            <summary>
+            Bottom type
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.enumHorLabType">
+            <summary>
+            Horizontal label type enumeration
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumHorLabType.Time">
+            <summary>
+            Time
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumHorLabType.Span">
+            <summary>
+            Span
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.enumHorLabType.Step">
+            <summary>
+            Step
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.HorLabTag">
+            <summary>
+            The horizontal label tag
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.HorLabTag.szNum">
+            <summary>
+            Label string
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.HorLabTag.iLocationX">
+            <summary>
+            Location X
+            </summary>
+        </member>
+        <member name="F:Advantech.Graph.HorLabTag.m_dataTime">
+            <summary>
+            DateTime
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.HorLabTag.#ctor">
+            <summary>
+            The horizontal label tag constructor
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.HorLabTag.ShiftLocation(System.Int32)">
+            <summary>
+            Shift the location
+            </summary>
+            <param name="sftX"></param>
+        </member>
+        <member name="P:Advantech.Graph.HorLabTag.dataTime">
+            <summary>
+            Create dataTime
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.ValueChangedEventHandler">
+            <summary>
+             A delegate type for hooking up ValueChanged notifications. 
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.AdvantechLine">
+            <summary>
+            Summary description for LinePoint.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.AdvantechLine.#ctor">
+            <summary> 
+            The AdvantechLine constructor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.PointOne">
+            <summary>
+            Get/set Point One position of AdvantechLine object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.PointTwo">
+            <summary>
+            Get/set Point Two position of AdvantechLine object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.LineColor">
+            <summary>
+            Get/set line color.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.Width">
+            <summary>
+            Get/set width of line.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.shortAddressPointOne">
+            <summary>
+            Get/set short address of Point One of AdvantechLine object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.shortAddressPointTwo">
+            <summary>
+            Get/set short address of Point Two of AdvantechLine object.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.AdvantechLine.NeedToRedraw">
+            <summary>
+            Get/set need to redraw flag.
+            </summary>
+        </member>
+        <member name="T:Advantech.Graph.LineSegment">
+            <summary> 
+            The collection of AdvantechLine.
+            </summary>
+        </member>
+        <member name="M:Advantech.Graph.LineSegment.#ctor">
+            <summary> 
+            The LineSegment constructor.
+            </summary>
+        </member>
+        <member name="P:Advantech.Graph.LineSegment.LineArray">
+            <summary>
+            Get line array.
+            </summary>
+        </member>
+    </members>
+</doc>

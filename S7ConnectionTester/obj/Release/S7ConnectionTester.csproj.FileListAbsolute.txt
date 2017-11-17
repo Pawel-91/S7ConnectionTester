@@ -1,0 +1,71 @@
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7ConnectionTester.exe.config
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7ConnectionTester.exe
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7ConnectionTester.pdb
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Adam.dll
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Common.DLL
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Graph.dll
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Protocol.DLL
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7.Net.dll
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Adam.xml
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Common.xml
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Graph.xml
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Protocol.xml
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\MainWindow.g.cs
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\App.g.cs
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester_MarkupCompile.cache
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester_MarkupCompile.lref
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\MainWindow.baml
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.g.resources
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.Properties.Resources.resources
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.csproj.GenerateResource.Cache
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.exe
+C:\Users\pawel.szarzynski\documents\visual studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.pdb
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7ConnectionTester.exe.config
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.exe
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.pdb
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7ConnectionTester.exe
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7ConnectionTester.pdb
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Adam.dll
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Common.DLL
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Graph.dll
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Protocol.DLL
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\S7.Net.dll
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Adam.xml
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Common.xml
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Graph.xml
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\bin\Release\Advantech.Protocol.xml
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.csprojResolveAssemblyReference.cache
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\MainWindow.g.cs
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\App.g.cs
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester_MarkupCompile.cache
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester_MarkupCompile.lref
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\MainWindow.baml
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.g.resources
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.Properties.Resources.resources
+C:\Users\pawel.szarzynski\Work Folders\Visual Studio 2015\Projects\S7ConnectionTester\S7ConnectionTester\obj\Release\S7ConnectionTester.csproj.GenerateResource.Cache
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\S7ConnectionTester.exe.config
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.exe
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.pdb
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\S7ConnectionTester.exe
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\S7ConnectionTester.pdb
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Adam.dll
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Common.dll
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Graph.dll
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Protocol.dll
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\S7.Net.dll
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Adam.xml
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Common.xml
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Graph.xml
+G:\Uczelnia\Aplikacja\S7ConnectionTester\bin\Release\Advantech.Protocol.xml
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.csprojResolveAssemblyReference.cache
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\MainWindow.g.cs
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\App.g.cs
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester_MarkupCompile.cache
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester_MarkupCompile.lref
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\MainWindow.baml
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.g.resources
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.Properties.Resources.resources
+G:\Uczelnia\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.csproj.GenerateResource.Cache
+C:\Users\pawel.szarzynski\Desktop\Aplikacja\S7ConnectionTester\bin\Release\S7ConnectionTester.exe.config
+C:\Users\pawel.szarzynski\Desktop\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.exe
+C:\Users\pawel.szarzynski\Desktop\Aplikacja\S7ConnectionTester\obj\Release\S7ConnectionTester.pdb

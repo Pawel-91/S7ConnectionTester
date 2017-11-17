@@ -1,0 +1,128 @@
+﻿<Window x:Class="S7ConnectionTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S7ConnectionTester"
+        mc:Ignorable="d"
+        Title="PLC Communications" Background="LightSteelBlue" FontFamily="Times New Roman" WindowStartupLocation="CenterScreen" FontSize="14" MinHeight="600" MinWidth="770" Icon="Resources\osa_ics_plc.ico" Height="618" Width="922" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="222*"/>
+            <ColumnDefinition Width="299*"/>
+            <ColumnDefinition Width="394*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="208*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="179*"/>
+        </Grid.RowDefinitions>
+        
+        <!--<DockPanel Margin="10,10.2,10.2,10.2" Grid.RowSpan="2" Grid.Row="1" Grid.ColumnSpan="3">-->
+        <Grid Margin="5,5,5,8" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2">
+            <Border BorderBrush="Navy" BorderThickness="2" CornerRadius="20" Padding="10">
+                <StackPanel >
+                    <Label Content="1.Plc data" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="15"/>
+                    <Label Content="PLC processor type:" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="CpuTypeComboBox" HorizontalAlignment="Stretch" ItemsSource="{Binding cpuType}" DisplayMemberPath="Key" SelectedValuePath="Value" SelectionChanged="CpuTypeComboBox_SelectionChanged"/>
+
+                    <Label Content="IP address:" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="ipTextBox" HorizontalAlignment="Stretch" Background="WhiteSmoke" Text="{Binding ipString}" TextAlignment="Center"/>
+                    <DockPanel>
+                        <StackPanel HorizontalAlignment="Left">
+                            <Label Content="Rack:" HorizontalAlignment="Center"/>
+                            <TextBox x:Name="rackTextBox" HorizontalAlignment="Stretch" Text="{Binding rack}"/>
+                        </StackPanel>
+                        <StackPanel HorizontalAlignment="Right">
+                            <Label Content="Slot:" HorizontalAlignment="Center"/>
+                            <TextBox x:Name="slotTextBox" HorizontalAlignment="Stretch" Text="{Binding slot}"/>
+                        </StackPanel>
+                    </DockPanel>
+                    <Label Content="Communication Bit:" HorizontalAlignment="Center"/>
+                    <TextBox x:Name="communicationBitTextBox" HorizontalAlignment="Stretch" Text="{Binding CommunicationBit}" />
+                    <Button x:Name="saveConfigurationButtom" Content="Save Configuration" HorizontalAlignment="Center" Click="saveConfigurationButtom_Click" Padding="5" Margin="5"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+
+        <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="3" Margin="1,0,0,0">
+            <Border BorderBrush="Navy" BorderThickness="2" CornerRadius="20" Margin="2" >
+                <StackPanel >
+                    <Label Content="5.Read" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="15"/>
+                    <DockPanel HorizontalAlignment="Stretch" Margin="5">
+                        <Button Content="Add" Padding="5"  Click="AddVarriableButton_Click"></Button>
+                        <TextBox x:Name="VariableNameTextBox" MinWidth ="50" Margin="5,0,5,0" Text="{Binding ReadVariable}" GotFocus="TextBox_GotFocus" KeyDown="VariableNameTextBox_KeyDown" />
+                    </DockPanel>
+                    <DataGrid x:Name="readDataGrid" HorizontalAlignment="Stretch" Margin="5" VerticalScrollBarVisibility="Auto" ItemsSource="{Binding RVariables}" AutoGenerateColumns="False" IsReadOnly="True" RowHeaderWidth="0" PreviewKeyDown="readDataGrid_KeyDown" CanUserDeleteRows="True" MaxHeight="350">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Variable" x:Name="Variable" Width="1*" Binding="{Binding Variable}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Value" x:Name="Value" Width="1*" Binding="{Binding Value}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="button" Content="Button" Click="button_Click" Visibility="Hidden"/>
+                </StackPanel>
+            </Border >
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="1" Margin="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Navy" BorderThickness="2" CornerRadius="20" Margin="5" Grid.Column="1">
+                <StackPanel>
+                    <Label Content="4.Write" FontSize="15" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+                    <Label Content="Variable:" Margin="2"></Label>
+                    <TextBox x:Name="WVariableTextBox" Margin="2" Text="{Binding WriteVariable}"/>
+                    <Label Content="Value:" Margin="2"/>
+                    <TextBox x:Name="WValue" Margin="2" Text="{Binding WriteValue}" KeyDown="WValue_KeyDown" />
+                    <Button x:Name="writeButton" Content="Write" Margin="2" Height="30" Click="writeButton_Click" HorizontalAlignment="Center" Padding="10,0,10,0"/>
+                </StackPanel>
+            </Border>
+            <Border BorderBrush="Navy" BorderThickness="2" CornerRadius="20" Margin="5,5,1.6,5">
+                <StackPanel Margin="2">
+                    <Label Content="2. Storage Configuration" FontSize="15" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+                    <RadioButton x:Name="NoStorageButton" Content="None" Margin="2" IsChecked="True" Click="NoStorageButton_Click"/>
+                    <RadioButton x:Name="DBRadioButton" Content="Data Base" Margin="2" Click="DBRadioButton_Click"/>
+                    <RadioButton x:Name="FileRadioButton" Content="Local File"  Margin="2" Click="FileRadioButton_Click"/>
+                    <Label Content="File Location:" IsEnabled="{Binding ElementName=FileRadioButton, Path=IsChecked}"/>
+                    <TextBox x:Name="FileLocationTextBox" TextWrapping="Wrap" Margin="4" AcceptsReturn="True" IsEnabled="{Binding ElementName=FileRadioButton, Path=IsChecked}"/>
+                    <Button x:Name="ShowButton" Content="Show Data" Margin="5" HorizontalAlignment="Center" Padding="5" Click="ShowButton_Click"/>
+                    <Button x:Name="PickFileLocationButton" Content="PickLocation" IsEnabled="{Binding ElementName=FileRadioButton, Path=IsChecked}" HorizontalAlignment="Center" Padding="5" Click="PickFileLocationButton_Click"/>
+
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+        <Grid VerticalAlignment="Stretch" Grid.Row="2" Grid.RowSpan="2" Grid.Column="1" Margin="2" >
+            <Border BorderBrush="Navy" BorderThickness="2" CornerRadius="20" Margin="5">
+                <StackPanel>
+                    <Label Content="6.Interpreter" FontSize="15" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+                    <Border Background="LightBlue" CornerRadius="10" Margin="20,0,20,0" BorderBrush="Navy" BorderThickness="1">
+                        <TextBox x:Name="interpreterTextBox" Margin="10" Background="LightBlue" BorderThickness="0" MinHeight="30" AcceptsReturn="True" TextWrapping="Wrap" Text="{Binding InterpreterText}" GotFocus="interpreterTextBox_GotFocus"/>
+                    </Border>
+                    <Label Content="Interpreter result:" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+                    <TextBox x:Name="interpretrResultTextBox" HorizontalAlignment="Center" Width="100" IsReadOnly="True" Text="{Binding IntResult}"/>
+                    <CheckBox x:Name="executeCheckBox" HorizontalAlignment="Center" Margin="0,20,0,20" Content="Execute interpreter program" IsChecked="{Binding ExecuteIntProgram}"></CheckBox>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Border BorderBrush="Navy" BorderThickness="2" CornerRadius="20" VerticalAlignment="Stretch" Grid.Row="3" Margin="5,4,5,5">
+            <StackPanel Margin="5" >
+                <Label HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold" Content="3.Ping &amp; Open Connection" FontSize="15"/>
+                <Border Background="LightSkyBlue" CornerRadius="10" Margin="20,0,20,0" BorderBrush="Navy" BorderThickness="1">
+                    <TextBlock x:Name="connectionTextBlock" Margin="5"  MinHeight="30"  Text="{Binding ConnectionString}"/>
+                </Border>
+
+                <Button x:Name="connectButton" Content="Connect" HorizontalAlignment="Center" Padding="5" Margin="5" Click="connectButton_Click"/>
+                <Button x:Name="startTimeButton" Content="Start Readings" HorizontalAlignment="Center" Padding="5" Margin="5" Click="startTimeButton_Click"/>
+
+
+            </StackPanel>
+        </Border>
+
+        <!--</DockPanel>-->
+    </Grid>
+</Window>
